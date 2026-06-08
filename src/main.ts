@@ -12,8 +12,8 @@ const users: {}[] = [{}, {}];
 
 console.log(name);
 
-function getSum(num?: number): void {
-  console.log(num);
+function getSum(num?: number, name = "natia"): void {
+  console.log(num, name);
 }
 
 getSum(12);
@@ -30,3 +30,27 @@ getName();
 
 let answer: boolean = true;
 console.log(answer);
+
+let name2: string = "madu";
+let age2: number = 20;
+let isAdult: boolean = true;
+
+console.log(name2);
+console.log(age2);
+console.log(isAdult);
+
+//
+
+// function getFullName(first: string, last: string): string {
+//   const result = first + " " + last;
+//   console.log(result);
+//   return result;
+// }
+
+function getFullName(first: string, last: string = "chxiro"): string {
+  console.log(`${first} ${last}`);
+
+  return `${first} ${last}`;
+}
+
+getFullName("madu");
