@@ -7,6 +7,31 @@
     <title>typescript-1</title>
   </head>
   <body>
+    <form class="user_form">
+      <label for="user">user name:</label>
+      <input type="text" id="userName" />
+      <label for="mail">mail</label>
+      <input type="email" id="mail" />
+
+      <label for="message">message:</label>
+      <textarea id="message"></textarea>
+      <button type="submit">submit</button>
+    </form>
+    <div>
+      <div>
+        <strong>Username:</strong>
+        <span class="outputName"></span>
+      </div>
+      <div>
+        <strong>User mail:</strong>
+        <span class="outputmail"></span>
+      </div>
+      <div>
+        <strong>User message:</strong>
+        <span class="outputMessage"></span>
+      </div>
+    </div>
+
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
