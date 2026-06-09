@@ -54,3 +54,15 @@ function getFullName(first: string, last: string = "chxiro"): string {
 }
 
 getFullName("madu");
+
+//TS_2
+
+let x: number | string = 568;
+
+x = "sdfjksf";
+
+let arr3: [number, number, number, number] = [123, 4545, 7, 4];
+
+let arr4: number[] = [123, 4545, 7, 4];
+let arr5: (number | string | boolean)[] = [true, 49594, "goodbye"];
+//or | object
